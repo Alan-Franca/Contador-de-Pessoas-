@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Contador de Pessoas - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Get started
+<p align="center">
+  Um aplicativo mobile simples para contagem de pessoas com limite configurável, construído com React Native e Expo.
+</p>
 
-1. Install dependencies
+---
+
+### ✨ Funcionalidades
+
+- **Contador:** Aumente, diminua ou zere a contagem de pessoas.
+- **Limite Configurável:** Defina um limite máximo que fica salvo no celular.
+- **Alerta Visual:** O contador fica vermelho ao atingir o limite máximo.
+- **Tema Escuro:** Interface escura e elegante com lavanda como cor de destaque.
+
+---
+
+### 🚀 Tecnologias Utilizadas
+
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **AsyncStorage** para armazenamento local.
+
+---
+
+### 📋 Pré-requisitos
+
+Para executar este projeto, você precisará ter instalado:
+
+- [Node.js](https://nodejs.org/en/) (versão LTS)
+- [Git](https://git-scm.com)
+- O aplicativo **Expo Go** no seu smartphone (Android ou iOS).
+
+---
+
+### ⚙️ Como Executar o Projeto
+
+Siga os passos abaixo para rodar o aplicativo no seu ambiente de desenvolvimento.
+
+**1. Clone o repositório**
+```bash
+git clone [https://github.com/Alan-Franca/Contador-de-Pessoas-.git](https://github.com/Alan-Franca/Contador-de-Pessoas-.git)
+```
+
+## Comece
+
+1. Instale as dependências
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Iniciar uma aplicação 
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Na saída, você encontrará opções para abrir o aplicativo em um
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [compilação de desenvolvimento](https://docs.expo.dev/develop/development-builds/introduction/)
+- [emulador Android](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [simulador iOS](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), um sandbox limitado para testar o desenvolvimento de aplicativos com Expo
